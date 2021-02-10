@@ -172,10 +172,9 @@
     outline: $title-color 1.5px solid;
   }
   .checkbox__checkbox:checked + & {
-    background-image: url(../img/icon\ check.svg);
+    background-image: url(../img/iconcheck.svg);
   }
 }
-
 .checkbox__checkbox {
   width: 1px;
   height: 1px;
