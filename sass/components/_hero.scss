@@ -21,11 +21,11 @@
   margin-bottom: 30px;
 }
 .hero__hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36em;
+  font-weight: $hero-font-weight;
+  font-size: $hero-font-size;
+  line-height: $hero-line-height;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: $footer__button-letter-spacing;
   text-transform: uppercase;
   color: $primary-white-color;
   margin: 0%;
@@ -40,12 +40,12 @@
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88em;
+  font-weight: $font-weight-700;
+  font-size: $footer__blank-font-size;
+  line-height: $hero__button-line-height;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: $footer__button-letter-spacing;
   color: $primary-white-color;
   border: none;
   margin-right: auto;
