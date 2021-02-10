@@ -8,10 +8,10 @@
   margin-top: 0%;
 }
 .contacts-element {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
+  font-weight: $header-font-weight;
+  font-size: $header-font-size;
+  line-height: $header-font-height;
+  letter-spacing: $header-letter-spacing;
   color: currentColor;
   text-decoration: none;
   padding-top: 32px;
