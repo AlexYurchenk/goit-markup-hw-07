@@ -10,9 +10,9 @@
   padding-left: 15px;
 }
 .clients__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16em;
+  font-weight: $font-weight-700;
+  font-size: $title-font-size;
+  line-height: $title-line-height;
   text-align: center;
   color: $title-color;
   margin-top: 0%;
