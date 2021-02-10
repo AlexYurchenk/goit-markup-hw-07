@@ -34,7 +34,7 @@
   margin: 0%;
   font-weight: 700;
   font-size: $activity-text-font-size;
-  line-height: $activity-text-line-heigh;
+  line-height: 1.14em;
   text-align: center;
   text-transform: uppercase;
   color: var(--secondary-white-color);
@@ -50,6 +50,7 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .activity__description {
   display: flex;
   justify-content: center;
