@@ -1,8 +1,8 @@
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19em;
+  font-family: $logo-font-family;
+  font-weight: $font-weight-700;
+  font-size: $logo-font-size;
+  line-height: $logo-line-height;
   color: $logo-color;
   text-decoration: none;
   padding-top: 24px;
