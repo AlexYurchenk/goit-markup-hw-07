@@ -8,10 +8,10 @@
 }
 .header__nav-element {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
+  font-weight: $header-font-weight;
+  font-size: $header-font-size;
+  line-height: $header-font-height;
+  letter-spacing: $header-letter-spacing;
   color: $title-color;
   padding-top: 32px;
   padding-bottom: 32px;
