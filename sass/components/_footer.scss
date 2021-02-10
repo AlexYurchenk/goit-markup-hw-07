@@ -17,14 +17,14 @@
   display: block;
   color: $primary-white-color;
   margin-bottom: 20px;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19em;
+  font-family: $logo-font-family;
+  font-weight: $font-weight-700;
+  font-size: $logo-font-size;
+  line-height: $logo-line-height;
 }
 .footer__address {
-  font-size: 14px;
-  line-height: 1.17em;
+  font-size: $activity-text-font-size;
+  line-height: $footer__address-line-height;
   color: $primary-white-color;
   font-style: normal;
 }
@@ -38,9 +38,9 @@
   margin-bottom: 9px;
 }
 .contacts-element--footer {
-  font-size: 14px;
-  line-height: 1.71em;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: $activity-text-font-size;
+  line-height: $line-height-contacts-element--footer;
+  color: $contacts-element--footer-color;
   padding: 0%;
 }
 .footer__element-first {
@@ -50,9 +50,9 @@
   display: flexbox;
 }
 .footer__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14em;
+  font-weight: $font-weight-700;
+  font-size: $activity-text-font-size;
+  line-height: $activity-text-line-heigh;
   text-transform: uppercase;
   color: $primary-white-color;
   margin-top: 0%;
@@ -75,7 +75,7 @@
 .footer__social-element {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: $footer__social-element-background-colo;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,23 +109,23 @@
   padding-bottom: 15px;
   color: $primary-white-color;
   &::placeholder {
-    font-size: 16px;
-    line-height: 1.25em;
+    font-size: $footer__blank-font-size;
+    line-height: $footer__blank-line-heigh;
     display: flex;
     align-items: center;
-    color: rgba(255, 255, 255, 0.6);
+    color: $footer__blank-color;
   }
 }
 
 .footer__button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9em;
+  font-weight: $font-weight-700;
+  font-size: $footer__blank-font-size;
+  line-height: $footer__button-line-height;
   align-items: center;
   display: inline-flex;
   text-align: center;
   justify-content: center;
-  letter-spacing: 0.06em;
+  letter-spacing: $footer__button-letter-spacing;
   background-color: $accent-color;
   color: $primary-white-color;
   min-width: 200px;
