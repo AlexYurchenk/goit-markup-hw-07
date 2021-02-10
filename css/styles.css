@@ -565,7 +565,7 @@ img{
     display: block;
     color: var(--primary-white-color);
     margin-bottom: 20px;
-    font-family: Raleway,sans-serif
+    font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19em;
@@ -1013,5 +1013,5 @@ img{
     margin-left: -20px;
 }
 .form__checkbox:checked + .form__person-agreement{
-    background-image: url(../img/icon\ check.svg);
+    background-image: url(../img/icon check.svg)
 }
