@@ -52,7 +52,7 @@
 .footer__title {
   font-weight: $font-weight-700;
   font-size: $activity-text-font-size;
-  line-height: $activity-text-line-heigh;
+  line-height: 1.14em;
   text-transform: uppercase;
   color: $primary-white-color;
   margin-top: 0%;
@@ -75,7 +75,7 @@
 .footer__social-element {
   width: 44px;
   height: 44px;
-  background-color: $footer__social-element-background-colo;
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +110,7 @@
   color: $primary-white-color;
   &::placeholder {
     font-size: $footer__blank-font-size;
-    line-height: $footer__blank-line-heigh;
+    line-height: 1.25em;
     display: flex;
     align-items: center;
     color: $footer__blank-color;
